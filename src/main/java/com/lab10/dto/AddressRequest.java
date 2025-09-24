@@ -5,7 +5,8 @@ public record AddressRequest(
 	String line2, 
 	String city,
 	String postalCode, 
-	String Country)
+	String state,
+	String country)
 {
 
 }
